@@ -1,0 +1,132 @@
+/* cards */
+.cards-margin {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Images div */
+.main-img-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 20rem;
+  height: 35rem;
+}
+
+.left-flex {
+  width: 50%;
+}
+
+.right-flex {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.flex {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-img {
+  /* background-color: green; */
+  background-image: url("./images/placeholder1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-img {
+  background-color: blue;
+  height: 19rem;
+  background-image: url("./images/placeholder1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-img {
+  background-color: red;
+  height: 19rem;
+  background-image: url("./images/placeholder1.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-p {
+  font-size: 3rem;
+}
+
+/* Standalone Item */
+.standout-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 20rem;
+}
+
+.item-p-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2.5rem;
+}
+
+.item-p-div button {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  background-color: rgb(47, 190, 190);
+}
+
+.item-p-div button:hover {
+  background-color: aqua;
+}
+
+.standout-img {
+  width: 35rem;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .standout-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .standout-img {
+    width: 85%;
+    height: auto;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .item-p-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2.5rem;
+    width: 90%;
+    height: auto;
+  }
+}

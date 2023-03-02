@@ -209,3 +209,15 @@ body {
     height: auto;
   }
 }
+
+/* Accordian */
+.info-cards {
+  width: 50%;
+  margin: auto;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+.info-btn {
+  text-align: center;
+}

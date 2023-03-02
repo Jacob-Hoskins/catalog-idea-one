@@ -11,6 +11,13 @@ body {
   justify-content: center;
 }
 
+/* Grabber */
+.h3-grabber {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 1.2rem;
+  color: white;
+}
+
 /* Images div */
 .main-img-flex {
   display: flex;

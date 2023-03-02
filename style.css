@@ -13,8 +13,8 @@ body {
 
 /* Grabber */
 .h3-grabber {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.041);
+  border-radius: 1.5rem;
   color: white;
 }
 
@@ -229,4 +229,9 @@ body {
     margin-top: 15rem;
     margin-bottom: 10rem;
   }
+}
+
+/* reviews */
+.review-div {
+  height: 5rem;
 }

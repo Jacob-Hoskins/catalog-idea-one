@@ -221,3 +221,12 @@ body {
 .info-btn {
   text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+  .info-cards {
+    width: 80%;
+    margin: auto;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+  }
+}

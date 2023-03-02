@@ -1,3 +1,8 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/257525.jpg");
+  background-attachment: fixed;
+}
+
 /* cards */
 .cards-margin {
   margin: auto;
@@ -29,7 +34,7 @@
 
 .flex {
   width: 100%;
-  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +42,11 @@
 
 .left-img {
   /* background-color: green; */
-  background-image: url("./images/placeholder1.png");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOad4pamGyOl7tH-X_HzdSlBaEKjGoNNGT-g&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +55,11 @@
 .top-img {
   background-color: blue;
   height: 19rem;
-  background-image: url("./images/placeholder1.png");
+  background-image: url("https://static.wixstatic.com/media/ee2284_2e859a97903644d29a20f3d02cb666b6~mv2.jpg/v1/fill/w_560,h_436,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kintla4.jpg");
+  background-size: cover;
+
+  width: 100%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,14 +68,68 @@
 .bottom-img {
   background-color: red;
   height: 19rem;
-  background-image: url("./images/placeholder1.png");
+  background-image: url("http://andrejtarfila.com/wp-content/uploads/2016/03/morning-fairytale-400x400.jpg");
   display: flex;
+  background-size: cover;
   justify-content: center;
   align-items: center;
 }
 
 .img-p {
   font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.9rem 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.img-border {
+  border: solid black 1.5px;
+}
+
+@media screen and (max-width: 750px) {
+  .main-img-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 15rem;
+    width: 100%;
+    margin-bottom: 20rem;
+    height: 35rem;
+  }
+
+  .left-img {
+    /* background-color: green; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOad4pamGyOl7tH-X_HzdSlBaEKjGoNNGT-g&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid black 1px;
+  }
+
+  .left-flex {
+    width: 100%;
+    display: flex;
+    padding: 5rem;
+  }
+
+  .right-flex {
+    width: 100%;
+  }
+
+  .top-img {
+    border: solid black 2px;
+  }
+
+  .bottom-img {
+    border: solid black 2px;
+  }
 }
 
 /* Standalone Item */

@@ -4,6 +4,33 @@ body {
   background-size: cover;
 }
 
+@font-face {
+  font-family: myFont;
+  src: url("./Averia_Gruesa_Libre/AveriaGruesaLibre-Regular.ttf");
+}
+
+p {
+  font-family: myFont;
+}
+h1 {
+  font-family: myFont;
+}
+h2 {
+  font-family: myFont;
+}
+h3 {
+  font-family: myFont;
+}
+h4 {
+  font-family: myFont;
+}
+h5 {
+  font-family: myFont;
+}
+h6 {
+  font-family: myFont;
+}
+
 /* cards */
 .cards-margin {
   margin: auto;
@@ -233,5 +260,40 @@ body {
 
 /* reviews */
 .review-div {
-  height: 5rem;
+  height: 10%;
+  width: 50%;
+  margin: auto;
+  border-radius: 6rem;
+}
+
+.review-div img {
+  height: auto;
+  width: 20%;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  width: 100%;
+}
+
+.review-info-flex {
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .review-div {
+    height: 10%;
+    width: 75%;
+    margin: auto;
+    border-radius: 6rem;
+  }
+}
+
+/* Footer */
+footer {
+  margin-top: 25rem;
 }

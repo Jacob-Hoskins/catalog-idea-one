@@ -300,7 +300,16 @@ h6 {
   }
 
   .review-info-flex {
-    width: 80%;
+    width: 90%;
+  }
+
+  .review-card {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .review-btn {
+    width: 5%;
   }
 }
 
